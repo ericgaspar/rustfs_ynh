@@ -10,7 +10,7 @@ User=__APP__
 Group=__APP__
 EnvironmentFile=__INSTALL_DIR__/.env
 WorkingDirectory=__INSTALL_DIR__/
-ExecStart=__INSTALL_DIR__/rustfs  __DATA_DIR__
+ExecStart=__INSTALL_DIR__/rustfs __DATA_DIR__
 StandardOutput=append:/var/logs/__APP__/rustfs.log
 StandardError=append:/var/logs/__APP__/rustfs-err.log
 
